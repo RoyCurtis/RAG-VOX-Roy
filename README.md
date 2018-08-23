@@ -9,6 +9,20 @@ PCM 48000hz WAV files, and then converted to 16000hz 32kbps MP3 files. Command u
 sox --buffer 2048000 "$1" -C 32 "$2" noisered "../data/vox/noise.profile" 0.4 treble 9 gain -l 4 rate 16k
 ```
 
+All clips are recorded with a Behringer C-1U USB condenser microphone.
+
+# Usage
+
+To use this voice in Rail Announcement Generator:
+
+1. Click on the gear to open the Settings screen
+1. Make sure "Use VOX" is turned ON
+1. [Choose "GitHub - Roy" from the voice list][USAGE]
+1. Click "Save & close"
+
+Alternatively, you can use the URL `https://roycurtis.github.io/RAG-VOX-Roy` if using the
+"Custom" voice.
+
 # License
 
 Please see `LICENSE.md`. This entire work is licensed under the Creative Commons
@@ -43,3 +57,4 @@ feel free. You may email me at roy.adrian.curtis@gmail.com if you are unsure.
 [WELSH]: https://i.imgur.com/5hTD7tn.jpg
 [ROB]: https://robrotheram.com/
 [JOHN]: https://www.jlb2011.co.uk/wales/sounds/index.htm
+[USAGE]: https://i.imgur.com/lWkOcLS.jpg
